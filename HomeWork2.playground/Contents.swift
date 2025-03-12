@@ -84,22 +84,33 @@ print("\nРозділ 1.2 Змінні\n")
      ...
 
  */
+var name = "Kate"
+var surName = "Kopova"
+var personAge: UInt8 = 14
+var personWeight: UInt8 = 162
+var masa = 48.7
+var married = false
 
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(name)")
+print("Прізвище: \(surName)")
+print("Вік: \(personAge)")
+print("зріст: \(personWeight)см")
+print("Вага: \(masa)кг")
+print("У шлюбі: \(married)")
+
+married = true
+masa = 51
+personAge = 21
+personWeight = 165
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(name)")
+print("Прізвище: \(surName)")
+print("Вік: \(personAge)")
+print("зріст: \(personWeight)см")
+print("Вага: \(masa)кг")
+print("У шлюбі: \(married)")
 
 
 print("\nРозділ 1.3 Псевдоніми\n")
